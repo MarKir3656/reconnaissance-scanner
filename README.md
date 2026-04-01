@@ -5,10 +5,10 @@ A script for automatically collecting information about a Linux system. Used dur
 # Сapabilities
 
 - Information about OS and core;
-- Collect information about users and sudos;
+- Collect information about users and sudo users;
 - Scan of listening ports;
-- List of active process;
-- Control of cron-jobs;
+- List of active processes;
+- Cron jobs;
 - Identifying potentially dangerous rights;
 
 # Installation and start
@@ -21,11 +21,11 @@ cd reconnaissance-scanner
 chmod +x recon.sh
 ./recon.sh
 ```
-Result will save in `./output` directory.
+Result are saved in `./output` directory.
 
 ### Example of file
 
-```./output/recon_$(date +"%Y%m%d_%H%M%S").txt
+```
 === SYSTEM INFO ===
 Linux workstation 6.17.0-19-generic ...
 
