@@ -19,7 +19,7 @@ echo "" | tee -a "$OUTPUT_FILE"
 
 # users
 echo "=== USERS ===" | tee -a "$OUTPUT_FILE"
-cut -d ':' -f 1 /etc/passwda | tee -a "$OUTPUT_FILE"
+cut -d ':' -f 1 /etc/passwd | tee -a "$OUTPUT_FILE"
 echo "" | tee -a "$OUTPUT_FILE"
 
 # sudo users
