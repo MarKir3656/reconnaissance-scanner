@@ -1,6 +1,7 @@
 # About reconnaissance-scanner
 
-A script for automatically collecting information about a Linux system. Used during reconnaissance.
+A script for automatically collecting information about a Linux system. Used during reconnaissance. 
+There is Bash and Python scripts. If you want see active process of scanning use [Bash script](https://github.com/MarKir3656/reconnaissance-scanner/edit/main/recon.sh)
 
 # Сapabilities
 
@@ -20,6 +21,11 @@ git clone https://github.com/MarKir3656/reconnaissance-scanner.git
 cd reconnaissance-scanner
 chmod +x recon.sh
 ./recon.sh
+```
+Same command for `recon.py` except 
+```
+chmod +x recon.py
+./recon.py
 ```
 Result are saved in `./output` directory.
 
