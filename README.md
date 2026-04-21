@@ -56,3 +56,7 @@ user        1543 14.2  0.1  22292  4684 pts/0    R+   14:26   0:00 ps aux --sort
 user        1499  7.1  0.1  20060  4020 pts/0    S+   14:26   0:00 -bash
 root           1  1.0  0.3  23376 14676 ?        Ss   14:21   0:03 /sbin/init splash
 ```
+
+# Author 
+[MarKir3656](https://github.com/MarKir3656)
+See my other projects.
